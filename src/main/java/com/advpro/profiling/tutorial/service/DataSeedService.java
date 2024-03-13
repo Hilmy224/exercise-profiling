@@ -32,6 +32,7 @@ public class DataSeedService {
     private static final int NUMBER_OF_COURSE = 10;
 
     public void seedStudent() {
+
         Faker faker = new Faker(new Locale("in-ID"));
 
         for (int i = 0; i < NUMBER_OF_STUDENTS; i++) {
